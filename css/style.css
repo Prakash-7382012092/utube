@@ -1,0 +1,130 @@
+*{
+	margin:0;
+	padding: 0;
+}
+
+body{
+	background-color: orange;
+}
+#nav-bar{
+    position: sticky;
+	top:0;
+	z-index:10;
+}
+.navbar
+{
+	background-color: green;
+	padding :0 !important;
+
+}
+.navbar-brand img{
+	height:70px;
+	padding-left: 30px;
+}
+#wa{
+	margin-right: 60px;
+}
+.navbar-nav li{
+	padding: 0 10px;
+}
+.navbar-nav li a{
+	color:white !important;
+}
+
+.navbar-nav .active{
+ background-color: blue !important;
+ border-radius: 30px  0 30px 0;
+}
+
+a:hover{
+	background-color:gray;
+	 border-radius: 30px  0 30px 0;
+}
+.carousel-item{
+	height:480px;		
+}
+.carousel-item h1{
+	font-family: Bell MT;
+	font-size: 100px;		
+}
+.carousel-item h2{
+	font-family: Arial Black;
+	font-size: 30px;		
+}
+.box{
+	background:blue;
+	padding: 15px;
+
+}
+.img{
+	width: 100px;
+	margin-top: 20px;
+
+} 
+.services{
+	padding:20px;
+	background-color: blue;
+
+}
+#services h4{
+	padding:5px;
+}
+
+#footer{
+	background-color: green;
+	color:white;	
+}
+.footer-box{
+	padding: 20px;
+}
+.h{
+	color:white;
+}
+.b{
+	position: relative;
+	z-index: 10;
+
+}
+.top-left {
+  position: absolute;
+  top: 38px;
+  left: 46px;
+  color: white;
+  font-size: 20px;
+}
+.only-for-me{
+	position:relative;
+	margin:10px;
+
+}
+#carousel_1{
+	height:300px;
+}
+#j{
+	margin-top: 0px;
+	height: 350px;
+	background-color:blue;
+}
+.c{
+	color:white;
+}
+.m{
+   width:450px;
+}
+.jumbotron{
+            /* background:url('images/images/n3.jpg'); */
+   background-repeat:no-repeat;
+   background-size: cover;
+}
+.navbar .btn{
+border-top-left-radius:25px;
+border-bottom-right-radius:25px;
+}
+.navbar .nav-items:hover {
+background:silver;
+border-top-left-radius:25px;
+border-bottom-right-radius:25px;
+}
+.modal-header{
+	background-color: white;
+}
